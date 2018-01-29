@@ -69,6 +69,9 @@ export default class extends Component {
         <div className={"container"}>
 
           <div className={"row"}>
+
+          </div>
+          <div className={"row"}>
             <div className={"col l8 m8 s8"}>
               <h3>
                 This is scrape result
@@ -77,8 +80,11 @@ export default class extends Component {
                 <a style={{ cursor: 'pointer' }} onClick={() => downloadWithCSVFormat(this.state.reviews)}>Download
                   CSV</a>
               </h4>
+              <h5>
+                Total downloaded <strong style={{fontSize: 'larger'}}>{this.state.reviews.length ? this.state.reviews.length : "---"}</strong>
+              </h5>
 
-x              <div className={"reviews"}>
+             <div className={"reviews"}>
                 {this.state.reviews.length ? listOfReviews : <h5>"loading..."</h5>}
               </div>
 
