@@ -85,7 +85,7 @@ x              <div className={"reviews"}>
 
             </div>
             <div className={"col l4 m4 s4"}>
-              <h3> This is the page we're scraping</h3>
+              <h3> This is the page we are scraping</h3>
               <iframe title={"toothssenger"} style={{ height: '500px' }} src={pageToCompareTo}></iframe>
             </div>
           </div>
