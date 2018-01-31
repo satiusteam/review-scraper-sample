@@ -1,9 +1,3 @@
-/*
-    color: #fff;
-    text-align: center;
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
- */
 import React, {Component,Fragment} from 'react';
 import styles from './ToothsSenger.css';
 
@@ -74,21 +68,21 @@ export default class extends Component {
 
     return (
         <Fragment>
-          <header>
+          <header style={{textAlign: "center"}}>
             <h1>Checkout source code on github</h1>
-            <div>
-              <div className={"col col-md-4 offset-md1"}>
+            <div className={[styles.centered,"row"].join(' ')}>
+              <div className={"col m4 l2 s12 offset-l3"}  style={{padding: '3%'}}>
                 <a target={"_blank"} href={"https://github.com/satiusteam/review-scraper-sample"} className="btn">
                   View on GitHub
                 </a>
               </div>
-              <div className={"col col-md-4"}>
+              <div className={"col m4 l2 s12"} style={{padding: '3%'}}>
 
               <a className={"btn"} target={"_blank"} href={"https://github.com/satiusteam/review-scraper-sample/archive/1.0.zip"}>
                  Download .zip
                 </a>
               </div>
-              <div className={"col col-md-4"}>
+              <div className={"col m4 l2 s12"}  style={{padding: '3%'}}>
 
               <a className={"btn"} target={"_blank"} href={"https://github.com/satiusteam/review-scraper-sample/archive/1.0.tar.gz"}>
                   Download .tar.gz
