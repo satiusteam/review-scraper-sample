@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import ToothsSenger from './ToothsSenger';
+import ToothsSenger from './components/ToothsSenger';
 
 class App extends Component {
   render() {
