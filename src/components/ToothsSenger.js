@@ -72,7 +72,7 @@ export default class extends Component {
             <div className={[styles.centered,"row"].join(' ')}>
               <div className={"col m4 l2 s12 offset-l3"}  style={{padding: '3%'}}>
                 <a target={"_blank"} href={"https://github.com/satiusteam/review-scraper-sample"} className="btn">
-                  View on GitHub
+                  GitHub
                 </a>
               </div>
               <div className={"col m4 l2 s12"} style={{padding: '3%'}}>
